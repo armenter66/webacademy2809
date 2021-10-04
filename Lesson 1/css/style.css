@@ -1,0 +1,124 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-info {
+  padding: 7px;
+  text-align: center;
+  background: #000000;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fbfbfb;
+}
+
+.header {
+  height: 66px;
+  display: flex;
+  background: #fff;
+  padding: 15px 20px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.header__logo-link {
+  display: block;
+}
+
+.header__nav {
+  margin-left: 125px;
+  margin-right: auto;
+}
+
+.header__nav-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.header__nav-link {
+  height: 100%;
+  display: block;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header__nav-list-item:not(:first-child) {
+  padding-left: 22px;
+}
+
+.header__link svg {
+  width: 17px;
+}
+
+.header__icons {
+  display: flex;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../img/main.png") center center/cover no-repeat;
+  min-height: 800px;
+}
+
+.promo__title {
+  margin: 53px 0 14px;
+  font-size: 44px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.promo__desc {
+  margin-bottom: 22px;
+}
+
+.promo__shops {
+  display: flex;
+  gap: 12px;
+}
+
+.promo__link {
+  flex: 1 0 auto;
+  min-width: 201px;
+  background: #ff4a32;
+  border-radius: 35px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logos {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  min-height: 83px;
+}
+
+.logos__wrapper {
+  max-width: 1200px;
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logos__wrapper a:focus {
+  outline: none;
+}
