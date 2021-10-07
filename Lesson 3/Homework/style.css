@@ -1,0 +1,166 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.calendar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.calendar__body {
+  padding: 30px 50px 150px 50px;
+  background: rgba(42, 46, 65, 0.7);
+}
+
+.calendar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px;
+  position: relative;
+}
+
+.calendar__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.calendar__header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  opacity: 0.17;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.calendar__dates {
+  display: block;
+  margin: 105px auto;
+  max-width: 400px;
+}
+
+.calendar__weekdays {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.calendar__weekdays li {
+  width: 56px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.calendar__days {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: 55px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.calendar__days li {
+  height: 80px;
+  width: 57px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar__days li span {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.calendar__days li:nth-child(17),
+li:nth-child(18) {
+  background: #3c82f9;
+  align-self: center;
+  border-radius: 100%;
+  position: relative;
+  width: 57px;
+  height: 57px;
+}
+
+.calendar__days::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  opacity: 0.17;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.calendar__footer {
+  max-width: 400px;
+}
+
+.calendar__categories {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.calendar__categories_wrapper {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.calendar__categories_button {
+  display: flex;
+  width: 185px;
+  height: 50px;
+  border-radius: 12px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.calendar__categories_button-finance {
+  background: #8576ed;
+}
+
+.calendar__categories_button-manage {
+  background: #f39946;
+}
+
+.calendar__categories_button-design {
+  background: #ff467e;
+}
