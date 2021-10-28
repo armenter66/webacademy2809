@@ -1,1 +1,5 @@
-https://github.com/armenter66/webacademy2809/tree/main/Lesson%205/homework%205
+1) Task1 = https://github.com/armenter66/webacademy2809/tree/main/Lesson%207/homework%207
+2) Return the Missing Element = https://www.codewars.com/kata/reviews/52995cff9ce954dc50000a86/groups/6177a9bbcb2be70001851d42
+3) Add property to every object in array = https://www.codewars.com/kata/reviews/54e8cae858b1db0d2a000148/groups/56dd4b454c9055f89c000cec
+4) Find Your Villain Name = https://www.codewars.com/kata/reviews/536c36d47fc09aeb04000006/groups/6177f394cb2be7000185250e
+5) Take a Ten Minute Walk = https://prnt.sc/1xdiv67 (загрузил скрином, не появляется мое решение на кодеварс)
