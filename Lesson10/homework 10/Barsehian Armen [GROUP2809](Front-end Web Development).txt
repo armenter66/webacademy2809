@@ -1,0 +1,2 @@
+1) Closures and Scopes - https://www.codewars.com/kata/reviews/526ec46f6f5e255e150002d4/groups/55bf08240af7f0798f000009
+2) Can you keep a secret? - https://www.codewars.com/kata/reviews/54011e8a9928b8d22d000029/groups/543e79bf23ccbd76f9001d98

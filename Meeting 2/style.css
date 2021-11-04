@@ -161,3 +161,150 @@ a:focus {
   color: #fab63e;
   text-decoration: none;
 }
+
+main {
+  box-sizing: border-box;
+}
+
+.thrive {
+  min-height: 607px;
+  background: #62d0df;
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.thrive__second {
+  background: url("christopher-campbell-40367.jpg") center center/cover
+    no-repeat;
+}
+
+.thrive__first {
+  padding: 150px 178px 0;
+  box-sizing: border-box;
+}
+
+.thrive__first_title {
+  font-family: Larsseit;
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+
+  color: #ffffff;
+}
+
+.thrive__first_text {
+  margin-top: 75px;
+  font-family: Larsseit;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+
+.thrive__first_text span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.about {
+  min-height: 366px;
+  box-sizing: border-box;
+  padding-top: 150px;
+  padding-left: 105px;
+  padding-bottom: 70px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.about__title {
+  font-family: Larsseit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+
+  color: #22356f;
+}
+
+.about__desc {
+  max-width: 592px;
+  font-family: Larsseit;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+
+  color: #22356f;
+}
+
+.help {
+  min-height: 350px;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+}
+
+.help__title {
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-weight: 300;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.help__wrapper {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.help__block {
+  height: 260px;
+  padding: 72px 50px;
+}
+
+.help__block_title {
+  margin-top: 25px;
+
+  font-family: Larsseit;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  padding-left: 20px;
+  color: #ffffff;
+
+  position: relative;
+}
+
+.help__block_title::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 10px;
+  left: 0;
+  border-radius: 50%;
+  background: #e9b730;
+}
+
+.help__divider {
+  height: 1px;
+  background-color: #fff;
+}
+
+.help__block-first {
+  background: #ffe2de;
+}
+
+.help__block-second {
+  background: #c4e769;
+}
+
+.help__block-third {
+  background: #62d0df;
+}
+
+.help__block-fourth {
+  background: #0052c1;
+}
