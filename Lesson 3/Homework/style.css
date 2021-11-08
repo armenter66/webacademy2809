@@ -92,6 +92,11 @@ body {
   align-items: center;
 }
 
+.calendar__days li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .calendar__days li span {
   color: rgba(255, 255, 255, 0.6);
 }

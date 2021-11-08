@@ -308,3 +308,66 @@ main {
 .help__block-fourth {
   background: #0052c1;
 }
+
+.health__wrapper {
+  margin-top: 25px;
+  display: grid;
+  grid-template: repeat(2, 450px) / repeat(3, 1fr);
+}
+
+.health__block {
+  padding: 72px 50px;
+}
+
+.health__block_title {
+  margin-top: 25px;
+
+  font-family: Larsseit;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  padding-left: 20px;
+  color: #ffffff;
+
+  position: relative;
+}
+
+.health__block_title::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 10px;
+  left: 0;
+  border-radius: 50%;
+  background: #e9b730;
+}
+
+.health__divider {
+  height: 1px;
+  background-color: #fff;
+}
+
+.health__block-first {
+  background: #22356F;
+}
+
+.health__block-second {
+  background: #0052C1;
+}
+
+.health__block-third {
+  background: url('joanna-kosinska-340748.png') center center/cover no-repeat;
+}
+
+.health__block-fourth {
+  background: #62D0DF;
+}
+
+.health__block-fifth {
+  background: url('joanna-kosinska-340748.png') center center/cover no-repeat;
+}
+
+.health__block-sixth {
+  background: #8F00FF;
+}
