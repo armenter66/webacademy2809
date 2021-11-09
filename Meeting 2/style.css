@@ -349,25 +349,257 @@ main {
 }
 
 .health__block-first {
-  background: #22356F;
+  background: #22356f;
 }
 
 .health__block-second {
-  background: #0052C1;
+  background: #0052c1;
 }
 
 .health__block-third {
-  background: url('joanna-kosinska-340748.png') center center/cover no-repeat;
+  background: url("joanna-kosinska-340748.png") center center/cover no-repeat;
 }
 
 .health__block-fourth {
-  background: #62D0DF;
+  background: #62d0df;
 }
 
 .health__block-fifth {
-  background: url('joanna-kosinska-340748.png') center center/cover no-repeat;
+  background: url("joanna-kosinska-340748.png") center center/cover no-repeat;
 }
 
 .health__block-sixth {
-  background: #8F00FF;
+  background: #8f00ff;
+}
+
+.description {
+  min-height: 520px;
+  padding: 22px 0;
+}
+
+.description__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.description__item {
+  width: 350px;
+  height: 200px;
+  padding: 50px 20px 20px 100px;
+}
+
+.description__item_title {
+  font-family: Larsseit;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+
+  color: #22356f;
+}
+
+.description__item_text {
+  width: 250px;
+  margin-top: 30px;
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.know {
+  min-height: 800px;
+  box-sizing: border-box;
+}
+
+.know__wrapper {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 800px;
+}
+
+.know__photo {
+  background: url("linkedin-sales-navigator-402831.png");
+}
+.know__desc {
+  padding: 103px 106px;
+}
+
+.know__desc_title {
+  font-family: Larsseit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+
+  color: #22356f;
+}
+
+.know__desc_text {
+  margin-top: 200px;
+  font-family: Larsseit;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+
+  color: #22356f;
+}
+
+.know__desc_text span {
+  color: #62d0df;
+}
+
+.know__desc_subtitle {
+  margin-top: 150px;
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #fab63e;
+}
+
+.contact {
+  min-height: 800px;
+  box-sizing: border-box;
+}
+
+.contact__wrapper {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 800px;
+}
+
+.contact__block {
+  padding: 100px 100px;
+  background: #22356f;
+}
+
+.contact__block_title {
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.contact__block_title2 {
+  margin-top: 200px;
+  font-family: Larsseit;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.contact__block_text {
+  margin-top: 75px;
+  font-family: Larsseit;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+  max-width: 500px;
+  color: #ffffff;
+}
+
+.contact__block_subtitle {
+  text-decoration: none;
+  font-family: Larsseit;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  margin-top: 70px;
+  display: block;
+  color: #62d0df;
+}
+
+.contact__photo {
+  background: url("charles-etoroma-390119.png");
+}
+
+.footer {
+  min-height: 460px;
+  box-sizing: border-box;
+}
+
+.footer__bottom {
+  height: 80px;
+  padding: 32px 0 26px 190px;
+  background: #62d0df;
+  display: flex;
+  align-items: center;
+}
+
+.footer__copyright {
+  font-family: Larsseit;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: -0.006em;
+
+  color: #ffffff;
+}
+
+.footer__wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 380px;
+}
+
+.footer__photo {
+  background: url("autumn-goodman-242825.png") center center/cover no-repeat;
+}
+
+.footer__menu {
+  padding: 98px 68px;
+  display: flex;
+  gap: 86px;
+}
+
+.footer__item {
+  width: 205px;
+}
+
+.footer__item_title {
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+
+  color: #22356f;
+}
+
+.footer__item_desc {
+  margin-top: 50px;
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 300;
+  letter-spacing: -0.006em;
+
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.footer__item_links {
+  margin-top: 30px;
+}
+
+.footer__item_links a {
+  display: block;
+  text-decoration: none;
+  font-family: Larsseit;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+
+  color: rgba(34, 53, 111, 0.5);
 }
