@@ -2,8 +2,8 @@ const date = new Date();
 const year = date.getFullYear();
 const month = date.getMonth() ;
 
-let dateCurrentMonth = new Date(2021, 10, 1);
-let dateNextMonth = new Date(2021, 11, 1);
+let dateCurrentMonth = new Date(2021, 11, 1);
+let dateNextMonth = new Date(2022, 0, 1);
 let daysOfMonth = Math.round((dateNextMonth - dateCurrentMonth) / 1000 / 3600 / 24);
 console.log(daysOfMonth);
 
@@ -41,17 +41,16 @@ function createCalendar () {
    const daysNumRoot = document.querySelector('.calendar__days');
 
    const dataDay = date.getDate();
+   console.log(dataDay);
 
    let days;
-   
+
    for (i = 0; i < daysOfMonth; i++) {
       let arg = i + 1;
       days = document.createElement('li');
       days.innerHTML = `<a href="#">${arg}</a>`;
       daysNumRoot.appendChild(days);
-   } 
+   }
+
 
 } createCalendar ();
-
-
-
