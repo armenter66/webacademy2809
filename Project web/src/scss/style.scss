@@ -1,0 +1,33 @@
+@import "base/media";
+@import "base/fonts";
+@import "base/variables";
+
+@import "blocks/general";
+
+* {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

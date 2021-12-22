@@ -1,3 +1,1 @@
-1) https://www.codewars.com/kata/reviews/5458d518e6c6a692c1000035/groups/578d478ddaa01a2517000044
-2) https://www.codewars.com/kata/reviews/529f32794a6db5d32a000722/groups/61afa6c2bac0d800013b9ee2
-3) https://www.codewars.com/kata/reviews/555b73b449ccf33eb9000056/groups/61afa86af26c010001bfdd6f
+https://github.com/armenter66/webacademy2809/tree/main/ToDoList

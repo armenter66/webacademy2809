@@ -1,0 +1,113 @@
+@media (max-width: 1024px) {
+  main {
+    .shop {
+      &__wrapper {
+        max-width: 90%;
+      }
+      &__item {
+        width: 230px;
+      }
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  header {
+    .header {
+      justify-content: center;
+      gap: 20px;
+      nav {
+        display: none;
+      }
+      &__logo {
+        img {
+          width: 80%;
+        }
+      }
+      .hamburger {
+        display: flex;
+      }
+    }
+    .slider {
+      &__item {
+        &__title {
+          margin-left: 40px;
+        }
+        &__btn {
+          margin-left: 40px;
+        }
+      }
+    }
+    .menu {
+    }
+  }
+  main {
+    .adj {
+      padding: 90px;
+    }
+    .shop {
+      &__item {
+        width: 200px;
+      }
+    }
+    .system {
+      padding: 200px 70px;
+    }
+    .design {
+      &__title {
+        padding: 200px 50px 0;
+      }
+    }
+    .promo {
+      padding: 90px;
+      &__man,
+      &__women {
+        width: 300px;
+      }
+    }
+  }
+  footer {
+    .footer {
+      padding: 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    .adj {
+      padding: 60px;
+    }
+    .promo {
+      padding: 60px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    .menu {
+      &__block {
+        width: 250px;
+      }
+    }
+  }
+  main {
+    .system {
+      padding: 200px 50px;
+    }
+    .connect {
+      &__form {
+        input {
+          width: 250px;
+        }
+      }
+    }
+    .adj {
+      padding: 50px;
+    }
+    .promo {
+      padding: 50px;
+    }
+  }
+}

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project WEB </title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/slider.js" defer></script>
+    <script src="js/tabs.js" defer></script>
+    <script src="js/hamburger.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <a href="#" class="header__logo"><img src="img/logo.png" alt=""></a>
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__menu__list"><a href="#shop" class="header__menu__links">Men</a></li>
+                    <li class="header__menu__list"><a href="#promo" class="header__menu__links">Women</a></li>
+                    <li class="header__menu__list"><a href="#promo" class="header__menu__links">Objects</a></li>
+                    <li class="header__menu__list"><a href="#analog" class="header__menu__links">Analog</a></li>
+                </ul>
+            </nav>
+            <div class="header__shop">
+                <ul class="header__shop__menu">
+                    <li class="header__shop__list"><a href="#journal" class="header__shop__links">Journal</a></li>
+                    <li class="header__shop__list"><a href="#" class="header__shop__links">Search</a></li>
+                    <li class="header__shop__list"><a href="#" class="header__shop__links">Login</a></li>
+                    <li class="header__shop__list"><a href="#" class="header__shop__links"><img src="icons/cart.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span class="long"></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu__block">
+                <div class="menu__close">
+                    <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+                            fill="black" />
+                    </svg>
+                </div>
+                <div>
+                    <ul class="menu__list">
+                        <li class="menu__links"><a href="#">MEN</a></li>
+                        <li class="menu__links"><a href="#">WOMEN</a></li>
+                        <li class="menu__links"><a href="#">OBJECTS</a></li>
+                        <li class="menu__links"><a href="#">ANALOG</a></li>
+                    </ul>
+                </div>
+                <div class="menu__shop">
+                    <ul class="menu__shop__nav">
+                        <li class="menu__shop__list"><a href="#" class="menu__shop__links">Journal</a></li>
+                        <li class="menu__shop__list"><a href="#" class="menu__shop__links">Search</a></li>
+                        <li class="menu__shop__list"><a href="#" class="menu__shop__links">Login</a></li>
+                        <li class="menu__shop__list"><a href="#" class="menu__shop__links"><img src="icons/cart.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu__overlay"></div>
+        </div>
+        
+        <div class="slider">
+            <div class="slider__body">
+                <div class="slider__item slider__item-item1">
+                    <div class="slider__item__title">
+                        Analog: The Simplest Productivity System
+                    </div>
+                    <a href="#" class="slider__item__btn">Shop now →</a>
+                </div>
+        
+                <div class="slider__item slider__item-item2">
+                    <div class="slider__item__title">
+                        Analog: The Simplest Productivity System
+                    </div>
+                    <a href="#" class="slider__item__btn">Shop now →</a>
+                </div>
+        
+                <div class="slider__item slider__item-item3">
+                    <div class="slider__item__title">
+                        Analog: The Simplest Productivity System
+                    </div>
+                    <a href="#" class="slider__item__btn">Shop now →</a>
+                </div>
+        
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+        
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="shop" id="shop">
+            <div class="shop__wrapper">
+                <div class="shop__nav">
+                    <ul class="shop__nav__tabs">
+                        <li class="shop__nav__tab shop__nav__tab-active" data-tab="main">New Arrivals</li>
+                        <li class="shop__nav__tab" data-tab="analog">Analog</li>
+                        <li class="shop__nav__tab" data-tab="stock">Final Stock</li>
+                        <li class="shop__nav__tab" data-tab="best">Best Sellers</li>     
+                        <li class="shop__nav__tab" data-tab="clothing">Clothing</li>    
+                        <li class="shop__nav__tab" data-tab="objects">Objects</li>
+                    </ul>
+                </div>
+                <div class="shop__box">
+
+                    <div class="shop__container shop__container-active"  data-tab-content="main">
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/book.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Analog Starter Kit <span>(Walnut)</span></div>
+                            <div class="shop__item__price">$103.00 <span class="shop__item__price-red">$89.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/notebook.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Analog Cards <span>(3-Pack)</span></div>
+                            <div class="shop__item__price">$39.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/workzone.png" alt="">
+                            </div>
+                            <div class="shop__item__title">The Analog Complete Set</div>
+                            <div class="shop__item__price">$137.00 <span class="shop__item__price-red">$130.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/wood1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Pen Tray <span>(Walnut)</span></div>
+                            <div class="shop__item__price">$38.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/wood2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Pen Tray <span>(Walnut)</span></div>
+                            <div class="shop__item__price">$38.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/pen.png" alt="">
+                            </div>
+                            <div class="shop__item__title">HMM Ballpoint Pen <span>(Black)</span></div>
+                            <div class="shop__item__price">$35.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Mist <span>(Black Triblend)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red">$130.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Circular <span>((Charcoal)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt3.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Smell the Roses <span>(Black)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/case.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Analog Travel Case <span>(Gray)</span></div>
+                            <div class="shop__item__price">$34.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/scissors.png" alt="">
+                            </div>
+                            <div class="shop__item__title">HMM Scissors</div>
+                            <div class="shop__item__price">$45.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/pc.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Leather Desk Pad XL <span></span></div>
+                            <div class="shop__item__price">$265.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/mouse.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Premium Leather Mousepad XL <span>(Ugmonk Logo - Brown)</span></div>
+                            <div class="shop__item__price">$52.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/termo.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Kinto Travel Tumbler <span>(Coyote)</span></div>
+                            <div class="shop__item__price">$35.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/workzone.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Discbound Heirloom Journal Bundle <span>(Natural Journal + 3 Refills)</span></div>
+                            <div class="shop__item__price">$162.00 <span class="shop__item__price-red">$155.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/hat1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Chunky Knit Beanie<span>(Olive)</span></div>
+                            <div class="shop__item__price">$30.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/hat2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Chunky Knit Beanie<span>(Burgundy)</span></div>
+                            <div class="shop__item__price">$30.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/manshirt.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Men's Essential Tee <span>(Starter Kit - 3-Pack)</span></div>
+                            <div class="shop__item__price">$96.00 <span class="shop__item__price-red">$89.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/books.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Craighill Cal Bookend</div>
+                            <div class="shop__item__price">$120.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/voyage.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Voyage <span>(Black)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="shop__container"  data-tab-content="analog">
+                        
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/book.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Analog Starter Kit <span>(Walnut)</span></div>
+                            <div class="shop__item__price">$103.00 <span class="shop__item__price-red">$89.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/notebook.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Analog Cards <span>(3-Pack)</span></div>
+                            <div class="shop__item__price">$39.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/workzone.png" alt="">
+                            </div>
+                            <div class="shop__item__title">The Analog Complete Set</div>
+                            <div class="shop__item__price">$137.00 <span class="shop__item__price-red">$130.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/case.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Analog Travel Case <span>(Gray)</span></div>
+                            <div class="shop__item__price">$34.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="shop__container"  data-tab-content="stock">
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Mist <span>(Black Triblend)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red">$130.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Circular <span>((Charcoal)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt3.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Smell the Roses <span>(Black)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/hat1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Chunky Knit Beanie<span>(Olive)</span></div>
+                            <div class="shop__item__price">$30.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/hat2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Chunky Knit Beanie<span>(Burgundy)</span></div>
+                            <div class="shop__item__price">$30.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/manshirt.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Men's Essential Tee <span>(Starter Kit - 3-Pack)</span></div>
+                            <div class="shop__item__price">$96.00 <span class="shop__item__price-red">$89.00</span></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="shop__container"  data-tab-content="best">
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/mouse.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Premium Leather Mousepad XL <span>(Ugmonk Logo - Brown)</span></div>
+                            <div class="shop__item__price">$52.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/termo.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Kinto Travel Tumbler <span>(Coyote)</span></div>
+                            <div class="shop__item__price">$35.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/workzone.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Discbound Heirloom Journal Bundle <span>(Natural Journal + 3 Refills)</span></div>
+                            <div class="shop__item__price">$162.00 <span class="shop__item__price-red">$155.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/hat1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Chunky Knit Beanie<span>(Olive)</span></div>
+                            <div class="shop__item__price">$30.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/hat2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Chunky Knit Beanie<span>(Burgundy)</span></div>
+                            <div class="shop__item__price">$30.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/manshirt.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Men's Essential Tee <span>(Starter Kit - 3-Pack)</span></div>
+                            <div class="shop__item__price">$96.00 <span class="shop__item__price-red">$89.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/books.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Craighill Cal Bookend</div>
+                            <div class="shop__item__price">$120.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                    </div>
+
+
+                    <div class="shop__container" data-tab-content="clothing">
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Mist <span>(Black Triblend)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red">$130.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Circular <span>((Charcoal)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/shirt3.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Smell the Roses <span>(Black)</span></div>
+                            <div class="shop__item__price">$36.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/hat1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Chunky Knit Beanie<span>(Olive)</span></div>
+                            <div class="shop__item__price">$30.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/hat2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Chunky Knit Beanie<span>(Burgundy)</span></div>
+                            <div class="shop__item__price">$30.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/manshirt.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Men's Essential Tee <span>(Starter Kit - 3-Pack)</span></div>
+                            <div class="shop__item__price">$96.00 <span class="shop__item__price-red">$89.00</span></div>
+                        </div>
+                    </div>
+
+
+                    <div class="shop__container" data-tab-content="objects">
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/notebook.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Analog Cards <span>(3-Pack)</span></div>
+                            <div class="shop__item__price">$39.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/workzone.png" alt="">
+                            </div>
+                            <div class="shop__item__title">The Analog Complete Set</div>
+                            <div class="shop__item__price">$137.00 <span class="shop__item__price-red">$130.00</span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/wood1.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Pen Tray <span>(Walnut)</span></div>
+                            <div class="shop__item__price">$38.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/wood2.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Pen Tray <span>(Walnut)</span></div>
+                            <div class="shop__item__price">$38.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/pen.png" alt="">
+                            </div>
+                            <div class="shop__item__title">HMM Ballpoint Pen <span>(Black)</span></div>
+                            <div class="shop__item__price">$35.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/books.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Craighill Cal Bookend</div>
+                            <div class="shop__item__price">$120.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/mouse.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Premium Leather Mousepad XL <span>(Ugmonk Logo - Brown)</span></div>
+                            <div class="shop__item__price">$52.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/termo.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Kinto Travel Tumbler <span>(Coyote)</span></div>
+                            <div class="shop__item__price">$35.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/case.png" alt="">
+                            </div>
+                            <div class="shop__item__title">Analog Travel Case <span>(Gray)</span></div>
+                            <div class="shop__item__price">$34.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+                        <div class="shop__item">
+                            <div class="shop__item__img">
+                                <img src="img/goods/scissors.png" alt="">
+                            </div>
+                            <div class="shop__item__title">HMM Scissors</div>
+                            <div class="shop__item__price">$45.00 <span class="shop__item__price-red"></span></div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <a href="#" class="shop__btn">Shop New Arrivals</a>
+            </div>
+        </section>
+
+        <section class="system" id="analog">
+            <div class="system__round">
+                1.9 million cards shipped!
+            </div>
+            <h1 class="system__title">Analog — The simplest productivity system</h1>
+            <a href="#" class="system__btn">Now Available →</a>
+            <a href="#" class="system__link">Show me how it works</a>
+        </section>
+
+        <section class="adj" id="journal">
+            <div class="adj__wrapper">
+                <div class="adj__journal">
+                    <h2 class="adj__journal__title">Refillable Discbound Journals</h2>
+                    <div class="adj__journal__subtitle">Heirloom quality you'll be holding onto for life</div>
+                    <a href="#" class="adj__journal__btn">Shop the collection →</a>
+                </div>
+                <div class="adj__notebook">
+                </div>
+            </div>
+        </section>
+
+        <section class="promo" id="promo">
+            <h2 class="promo__title">Our mission is to create simple, beautiful objects that combine form and function.</h2>
+            <div class="promo__wrapper">
+                <div class="promo__man">
+                    <img src="img/man.png" alt="" class="promo__man__img">
+                    <a href="#" class="promo__btn">Shop Mens →</a>
+                </div>
+                <div class="promo__women">
+                    <img src="img/women.png" alt="" class="promo__women__img">
+                    <a href="#" class="promo__btn">Shop Womens →</a>   
+                </div>
+                <div class="promo__objects">
+                    <img src="img/table.png" alt="" class="promo__man__img">
+                    <a href="#" class="promo__btn">Shop Objects →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="design">
+            <h2 class="design__title">A design studio in Downingtown, PA, creating and curating products that combine form & function</h2>
+            <a href="#" class="design__btn">Read Our Story →</a>
+        </section>
+
+        <section class="connect">
+            <div class="connect__wrapper">
+                <h2 class="connect__title">Stay in the loop</h2>
+                <div class="connect__desc">Be the first to know when new products drop and get behind-the-scenes content straight from Ugmonk’s founder.</div>
+                <form class="connect__form">
+                    <input type="email" name="emal">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__block">
+                    <div class="footer__menu1">
+                        <ul class="footer__menu1__list">
+                            <li class="footer__menu1__point"><a href="#" class="footer__menu1__links">Customer Service</a></li>
+                            <li class="footer__menu1__point"><a href="#" class="footer__menu1__links">Help / FAQ</a></li>
+                            <li class="footer__menu1__point"><a href="#" class="footer__menu1__links">Returns & Exchanges</a></li>
+                            <li class="footer__menu1__point"><a href="#" class="footer__menu1__links">Sizing</a></li>
+                            <li class="footer__menu1__point"><a href="#" class="footer__menu1__links">Gift Cards</a></li>
+                            <li class="footer__menu1__point"><a href="#" class="footer__menu1__links">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu2">
+                        <ul class="footer__menu2__list">
+                            <li class="footer__menu2__point"><a href="#" class="footer__menu2__links">About</a></li>
+                            <li class="footer__menu2__point"><a href="#" class="footer__menu2__links">Our Story</a></li>
+                            <li class="footer__menu2__point"><a href="#" class="footer__menu2__links">Shop</a></li>
+                            <li class="footer__menu2__point"><a href="#" class="footer__menu2__links">Journal</a></li>
+                            <li class="footer__menu2__point"><a href="#" class="footer__menu2__links">About Our Tees</a></li>
+                            <li class="footer__menu2__point"><a href="#" class="footer__menu2__links">Reviews</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <div class="footer__socialblock">
+                        <div class="footer__socialblock__wrapper">
+                            <div class="footer__socialblock__texts">
+                                <div class="footer__socialblock__sub">© Ugmonk 2021</div>
+                                <div class="footer__socialblock__desc">All images and content may not be used without permission</div>
+                            </div>
+                            <div class="footer__socialblock__img">
+                                <a href="#" class="footer__socialblock__logo"><img src="icons/logofooter.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="footer__socialblock__social">
+                            <a href="#" class="footer__soccialblock__links"><img src="icons/facebook.svg" alt=""></a>
+                            <a href="#" class="footer__soccialblock__links"><img src="icons/twitter.svg" alt=""></a>
+                            <a href="#" class="footer__soccialblock__links"><img src="icons/insta.svg" alt=""></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  
+</body>
+</html>
