@@ -302,6 +302,10 @@
   &__item {
     width: 275px;
     &__img {
+      &:hover {
+        transform: scale(1.1, 1.1);
+        transition: linear 0.5s;
+      }
       img {
         width: 100%;
       }
@@ -470,6 +474,10 @@
   &__man,
   &__women,
   &__objects {
+    &:hover {
+      transform: scale(1.1, 1.1);
+      transition: linear 0.5s;
+    }
     &__img {
       display: block;
       width: 100%;
@@ -545,18 +553,10 @@
     color: #1a1a1a;
   }
   &__form {
+    position: relative;
     padding-top: 56px;
     display: flex;
     flex-wrap: wrap;
-    input {
-      width: 338px;
-      height: 48px;
-      background: #ffffff;
-      border: 1px solid #242424;
-      color: #1a1a1a;
-      font-size: 14px;
-      padding-left: 20px;
-    }
     button {
       background: #ffffff;
       border: 1px solid #242424;
@@ -572,6 +572,25 @@
         color: #fff;
       }
     }
+  }
+  &__input {
+    width: 338px;
+    height: 48px;
+    background: #ffffff;
+    border: 1px solid #242424;
+    color: #1a1a1a;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  span {
+    top: 130px;
+    position: absolute;
+    display: block;
+    color: black;
+    font-size: 12px;
+  }
+  span[hidden] {
+    display: none;
   }
 }
 
