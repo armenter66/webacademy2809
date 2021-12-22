@@ -11,6 +11,7 @@
     <script src="js/tabs.js" defer></script>
     <script src="js/hamburger.js" defer></script>
     <script src="js/validate.js" defer></script>
+    <script src="js/modals.js" defer></script>
 </head>
 <body>
 
@@ -28,9 +29,9 @@
             <div class="header__shop">
                 <ul class="header__shop__menu">
                     <li class="header__shop__list"><a href="#journal" class="header__shop__links">Journal</a></li>
-                    <li class="header__shop__list"><a href="#" class="header__shop__links">Search</a></li>
-                    <li class="header__shop__list"><a href="#" class="header__shop__links">Login</a></li>
-                    <li class="header__shop__list"><a href="#" class="header__shop__links"><img src="icons/cart.svg" alt=""></a></li>
+                    <li class="header__shop__list"><a href="#" class="header__shop__links modal-js-button">Search</a></li>
+                    <li class="header__shop__list"><a href="#" class="header__shop__links modal-js-button">Login</a></li>
+                    <li class="header__shop__list"><a href="#" class="header__shop__links modal-js-button"><img src="icons/cart.svg" alt=""></a></li>
                 </ul>
             </div>
             <div class="hamburger">
@@ -637,6 +638,15 @@
             </div>
         </div>
     </footer>
+
+
+    <div class="overlaymodal">
+        <div class="modal" data-modal="coming">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Thanks you for visiting our site</div>
+            <div class="modal__desc">...Coming soon</div>
+        </div>
+    </div>
 
   
 </body>

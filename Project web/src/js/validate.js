@@ -8,8 +8,6 @@ function findErrorEl(el) {
             return el.closest('.connect__form').querySelector('.connect__error');
 }
 
-console.log(nameErrorEl);
-
 function onSubmit(e) {
             e.preventDefault();
 
